@@ -40,7 +40,7 @@ if (isset($_ENV['HOST'])) {
 }
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+define('DB_CHARSET', 'utf8');
 
 /** Database charset to use in creating database tables. */
 define( 'DB_COLLATE', 'utf8mb4_general_ci' );
