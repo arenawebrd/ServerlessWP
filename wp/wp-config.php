@@ -39,11 +39,11 @@ if (isset($_ENV['HOST'])) {
   define( 'DB_HOST', $_ENV['HOST'] );
 }
 
-/** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
-
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
 
 /**#@+
  * Authentication unique keys and salts.
